@@ -113,13 +113,13 @@ TextureImporter:
       name: sorlosheet_0
       rect:
         serializedVersion: 2
-        x: 47
+        x: 70
         y: 579
-        width: 74
+        width: 51
         height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      alignment: 9
+      pivot: {x: 0.5440011, y: 0.49559888}
+      border: {x: 1, y: 0, z: 5, w: 4}
       outline: []
       physicsShape: []
       tessellationDetail: 0
