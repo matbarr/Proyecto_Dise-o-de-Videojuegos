@@ -1,0 +1,1513 @@
+fileFormatVersion: 2
+guid: b8a23b849ca90cb458ac628464bd1c6f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sorlosheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 580
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d91fb292b886804387445b6b1aa3947
+      internalID: -607382556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 587
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8260b77924436b848af12b0ba61b61c6
+      internalID: -162446328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 588
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f110c248c1b6f4fa4dbbd1066b3491
+      internalID: 2009855611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 582
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2a576dfa6b52341b7cdea60c7a95fd
+      internalID: -1964499546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 582
+        width: 51
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fc0dd05ed53b64e82901da7f366c22
+      internalID: 149927445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 490
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84bfb658f23d6f45ba3adebe9a9a9c0
+      internalID: 330473465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 498
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744c9108d5a9a8f4ca0e7c8fc13e3cb4
+      internalID: 1597713318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 498
+        width: 58
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a6c092f13bf0740afeaa612cbdae47
+      internalID: 1481405720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 498
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9d896e43b628e4fa57d15d7e123a8a
+      internalID: -1833253636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 492
+        width: 133
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b885bd25e57c84e4e81757efc9bad67a
+      internalID: -843860117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 486
+        width: 105
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9ba1361043ef140a7ff457bacf5843
+      internalID: -1806400727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 401
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba65ee6172320f428211257d49ab4c3
+      internalID: 1765298880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 399
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c40d0b6570dd304aa5e13ef5d806408
+      internalID: -284986337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 397
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0efc462cfa6474d9388080cbb3939c
+      internalID: 690588641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 399
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aaa5905a7022f642bfbc19291dfea55
+      internalID: -2081196359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 399
+        width: 59
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57276a6f4dd25a4b93815db5e33b426
+      internalID: 1746695236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 399
+        width: 78
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1d9019220b54c48ab89260659d19ea
+      internalID: -1100714056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 397
+        width: 83
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72646688447ce4f4894e2fc6699500cf
+      internalID: -489914055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 346
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7daf6d00c54af4a4eaf12f454abc73f9
+      internalID: -255026811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 346
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99130d6dc5f2f2b40b589f9dcd81b66c
+      internalID: -1550223443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 346
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec328cef442dec9448aaefe05b0ead23
+      internalID: -1261276157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 340
+        width: 46
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f2e553ca73fee4fbe9a48dd79cffde
+      internalID: 917388029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 298
+        width: 47
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32736d7ec97cfc04a8532cbcdb7bac30
+      internalID: -666021076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 336
+        width: 45
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eadc055473a5c94f95b7b75c66594ef
+      internalID: -1903018428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_24
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 338
+        width: 50
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c134ce3e4a3031428796be446e54f6c
+      internalID: 1251238104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_25
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 329
+        width: 48
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8296345f88b58744ab0a0b6e4a9e01a
+      internalID: -1612300925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_26
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 314
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bebe78df3b3cf342b521922dc73ec36
+      internalID: -1238319048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_27
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 314
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a735f8bd9cd144b970e5f95ad948d4
+      internalID: 602571332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_28
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 315
+        width: 82
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ee6442975abd24aadfd14ab34a0364
+      internalID: 1876282313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_29
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 316
+        width: 79
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90be575c3e72934189ac3cb5981277b
+      internalID: 1321631432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_30
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 315
+        width: 81
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb51ca1d54e56148a048c60d5e2bfc3
+      internalID: -13183569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_31
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 311
+        width: 129
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ac76a08c78a06499b086194e3edda4
+      internalID: 1413848576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_32
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 331
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9feb920b8db2241b47cab5027280dc
+      internalID: -1901262698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_33
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 219
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd638b06432e364e8d593a573e57dcd
+      internalID: 2111847548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_34
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 219
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693253bd9b9c6ef43b87e68956e780d0
+      internalID: 1464852045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_35
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 217
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c311b063a6edff4db0a224f165812f1
+      internalID: 419401550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_36
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 219
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df43b7ad6e662d4ba62b3581d7903d8
+      internalID: -2104499081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_37
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 221
+        width: 103
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb642f04b8fb934aa4c83c3dc2afd8b
+      internalID: 10687129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_38
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 221
+        width: 133
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa613e24fc99db40b0de28c1fd894c9
+      internalID: -597266740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_39
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 222
+        width: 104
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b709929fd683dd74089c0987f9c6f0ed
+      internalID: 1487794109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_40
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 224
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de60baae885445408ba4b1953ee33af
+      internalID: 1511668866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_41
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 138
+        width: 99
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65cd8191be708e4a8bab57eeaf23f6f
+      internalID: -1956000749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_42
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 44
+        width: 61
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3580ea68a29ff42a4bfb060eb80a2a
+      internalID: -1987915425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_43
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 131
+        width: 134
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42f1a34661044b4790e419e3507703c
+      internalID: -1263263374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_44
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 131
+        width: 134
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5515b1fb211e52a42a7612cc5d9dac78
+      internalID: -1190706092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_45
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 133
+        width: 141
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21aac1478b762f43bee9f4324eca9a1
+      internalID: 861574077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_46
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 134
+        width: 131
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f8e0a530be3154abf8bc5167e9bf8f
+      internalID: -665462760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_47
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 135
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5434eb97eec5c0940bfbc0e3cb63c6bb
+      internalID: 720338635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_48
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 132
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2874a3e89023f4e8dc181183a20df3
+      internalID: -2008160773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_49
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 45
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77833d739beb284da969089b1a4e0bb
+      internalID: -1591608776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_50
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 40
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab510c5eb7eab948bdda3b2a7b95875
+      internalID: -1734256165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_51
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 40
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123d1d68e8035d64bbb0c8680d3dc201
+      internalID: -650325348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_52
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 42
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e47ec8da3fe9e479a99e1481d1560e
+      internalID: 161756293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_53
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 40
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6635934208bea9944ad8aaea4195c8e3
+      internalID: -1838575650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_54
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 65
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5a3e6c066283a4bb2e25713fece268
+      internalID: 1864027718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_55
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 64
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15cdb5e01e519b4383862b31dafb915
+      internalID: -548844334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_56
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 64
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba33249fccef054da6c2339b1d27c9e
+      internalID: -2083641132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_57
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 64
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7d2682a1da8bf4784b1f3c39b24ff1
+      internalID: -323618168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_58
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 491
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2558b266a9fae8a41ba367d304f11341
+      internalID: -328644979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_59
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 491
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7d6f75daeff724cafe25bfe3aaa4d4
+      internalID: 697004017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_60
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 492
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69817d1bb339ef94bb79f630a22fb8c0
+      internalID: -51647816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_61
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 580
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6c8fbca33787e43a5277af6b3e7e68
+      internalID: -1115508324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sorlosheet 1_62
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 580
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ef566e139ba1f4c8af648f19435c98
+      internalID: 616723449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sorlosheet 1_0: -607382556
+      sorlosheet 1_1: -162446328
+      sorlosheet 1_10: -1806400727
+      sorlosheet 1_11: 1765298880
+      sorlosheet 1_12: -284986337
+      sorlosheet 1_13: 690588641
+      sorlosheet 1_14: -2081196359
+      sorlosheet 1_15: 1746695236
+      sorlosheet 1_16: -1100714056
+      sorlosheet 1_17: -489914055
+      sorlosheet 1_18: -255026811
+      sorlosheet 1_19: -1550223443
+      sorlosheet 1_2: 2009855611
+      sorlosheet 1_20: -1261276157
+      sorlosheet 1_21: 917388029
+      sorlosheet 1_22: -666021076
+      sorlosheet 1_23: -1903018428
+      sorlosheet 1_24: 1251238104
+      sorlosheet 1_25: -1612300925
+      sorlosheet 1_26: -1238319048
+      sorlosheet 1_27: 602571332
+      sorlosheet 1_28: 1876282313
+      sorlosheet 1_29: 1321631432
+      sorlosheet 1_3: -1964499546
+      sorlosheet 1_30: -13183569
+      sorlosheet 1_31: 1413848576
+      sorlosheet 1_32: -1901262698
+      sorlosheet 1_33: 2111847548
+      sorlosheet 1_34: 1464852045
+      sorlosheet 1_35: 419401550
+      sorlosheet 1_36: -2104499081
+      sorlosheet 1_37: 10687129
+      sorlosheet 1_38: -597266740
+      sorlosheet 1_39: 1487794109
+      sorlosheet 1_4: 149927445
+      sorlosheet 1_40: 1511668866
+      sorlosheet 1_41: -1956000749
+      sorlosheet 1_42: -1987915425
+      sorlosheet 1_43: -1263263374
+      sorlosheet 1_44: -1190706092
+      sorlosheet 1_45: 861574077
+      sorlosheet 1_46: -665462760
+      sorlosheet 1_47: 720338635
+      sorlosheet 1_48: -2008160773
+      sorlosheet 1_49: -1591608776
+      sorlosheet 1_5: 330473465
+      sorlosheet 1_50: -1734256165
+      sorlosheet 1_51: -650325348
+      sorlosheet 1_52: 161756293
+      sorlosheet 1_53: -1838575650
+      sorlosheet 1_54: 1864027718
+      sorlosheet 1_55: -548844334
+      sorlosheet 1_56: -2083641132
+      sorlosheet 1_57: -323618168
+      sorlosheet 1_58: -328644979
+      sorlosheet 1_59: 697004017
+      sorlosheet 1_6: 1597713318
+      sorlosheet 1_60: -51647816
+      sorlosheet 1_61: -1115508324
+      sorlosheet 1_62: 616723449
+      sorlosheet 1_7: 1481405720
+      sorlosheet 1_8: -1833253636
+      sorlosheet 1_9: -843860117
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
