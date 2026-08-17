@@ -9,6 +9,11 @@ public class Projectile : MonoBehaviour
     public int damage = 10;
     public float lifeTime = 3f;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip clipDisparo;
+    [SerializeField] private AudioClip clipImpacto;
+    [SerializeField] private float volumenAudio = 0.7f;
+
     private Vector2 direction;
 
     public void SetDirection(Vector2 dir)
@@ -20,6 +25,11 @@ public class Projectile : MonoBehaviour
 
     void Start()
     {
+        if (clipDisparo != null)
+        {
+            AudioSource.PlayClipAtPoint(clipDisparo, transform.position, volumenAudio);
+        }
+
         Destroy(gameObject, lifeTime);
     }
 
@@ -33,16 +43,26 @@ public class Projectile : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             Debug.Log($"Proyectil impactó a {other.name} por {damage} de daño");
+            ReproducirImpacto();
             Destroy(gameObject);
         }
         else if (other.CompareTag("Wall"))
         {
+            ReproducirImpacto();
             Destroy(gameObject);
         }
     }
 
-    internal void SetDirection(float direction)
+    public void SetDirection(float direction)
     {
-        throw new NotImplementedException();
+        SetDirection(new Vector2(direction, 0f));
+    }
+
+    private void ReproducirImpacto()
+    {
+        if (clipImpacto != null)
+        {
+            AudioSource.PlayClipAtPoint(clipImpacto, transform.position, volumenAudio);
+        }
     }
 }

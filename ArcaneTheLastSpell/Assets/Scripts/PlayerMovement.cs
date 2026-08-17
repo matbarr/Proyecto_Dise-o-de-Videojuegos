@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
+    private audioSalto audioSalto;
 
     private float horizontalInput;
     private bool jumpRequested;
@@ -30,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        audioSalto = GetComponent<audioSalto>();
 
         if (firePoint != null)
         {
@@ -62,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
             UpdateFirePointPosition();
         }
 
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetMouseButtonDown(0))
         {
             Attack();
         }
@@ -81,6 +83,12 @@ public class PlayerMovement : MonoBehaviour
                 rb.velocity.x,
                 jumpForce
             );
+
+            if (audioSalto != null)         
+            {
+                audioSalto.ReproducirSalto(); 
+            }
+
         }
 
         jumpRequested = false;
@@ -120,8 +128,8 @@ public class PlayerMovement : MonoBehaviour
             firePoint.position,
             Quaternion.identity
         );
-          Projectiles projectiles =
-        newProjectiles.GetComponent<Projectiles>();
+          Projectile projectiles =
+        newProjectiles.GetComponent<Projectile>();
         if (projectiles == null)
         {
             Debug.LogError(
