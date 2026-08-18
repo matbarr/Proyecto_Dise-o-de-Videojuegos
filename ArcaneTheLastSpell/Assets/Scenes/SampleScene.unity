@@ -11228,8 +11228,8 @@ Tilemap:
   - first: {x: 38, y: 3, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 0
+      m_TileIndex: 7
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -11488,8 +11488,8 @@ Tilemap:
   - first: {x: 38, y: 4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -13133,15 +13133,15 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: e0d0637e0f73df6428c384cdbe230c28, type: 2}
   - m_RefCount: 10
     m_Data: {fileID: 11400000, guid: fe0395a22120f1840bafb2a46452b194, type: 2}
-  - m_RefCount: 185
+  - m_RefCount: 184
     m_Data: {fileID: 11400000, guid: 6ff52188086ee0c42acc1f640add18cf, type: 2}
-  - m_RefCount: 16
+  - m_RefCount: 15
     m_Data: {fileID: 11400000, guid: 9c6a5b90dcb598d439b567610f552ac5, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 8333a8a4472f6524385c3732e003d872, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 6c1d0dc4f68fc2e4daf2fec79b24a62a, type: 2}
-  - m_RefCount: 37
+  - m_RefCount: 39
     m_Data: {fileID: 11400000, guid: 5eefbb815de731349be2e003627b7ef0, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: b5e7771da74f4c1428db50293ea99dc5, type: 2}
@@ -13190,11 +13190,11 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: aeecbc1532a67f24393876ba53c8f682, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 270
+  - m_RefCount: 269
     m_Data: {fileID: 1410598858, guid: f34f9e69c85e9744a9828a6cd8de239b, type: 3}
-  - m_RefCount: 55
+  - m_RefCount: 57
     m_Data: {fileID: -870651964, guid: f34f9e69c85e9744a9828a6cd8de239b, type: 3}
-  - m_RefCount: 26
+  - m_RefCount: 25
     m_Data: {fileID: -2094709183, guid: f34f9e69c85e9744a9828a6cd8de239b, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
