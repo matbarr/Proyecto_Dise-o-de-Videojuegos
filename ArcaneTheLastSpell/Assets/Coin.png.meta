@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8963fe052fbe0884fbfacbaec1fe13d5
+guid: 39194c9feb6fea74692308875e2cce14
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 12
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GandalfHardcore Portal sheet_0
+      name: Coin_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
+        x: 4
+        y: 4
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c0bd5d013f517f4399735774ac200af
-      internalID: -1875519228
+      spriteID: e20f4e0c8a6f2e145a15d768c9b7b2dc
+      internalID: -1724352133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GandalfHardcore Portal sheet_1
+      name: Coin_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
+        x: 21
+        y: 4
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb370d26680d8af4993f9f2a268dceb7
-      internalID: -1706164630
+      spriteID: 39a2761a0e3ea1b4e9393acc51ada631
+      internalID: -2145880540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GandalfHardcore Portal sheet_2
+      name: Coin_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
+        x: 38
+        y: 4
+        width: 4
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e933b4bcc0097944a5ca8617439db1c
-      internalID: -114276814
+      spriteID: 80d640151b184aa4b8dc27f371559ae1
+      internalID: -958230623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GandalfHardcore Portal sheet_3
+      name: Coin_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
+        x: 53
+        y: 4
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70609af9d2e64d64f90eb7de7997577d
-      internalID: -1960476038
+      spriteID: 9c308d4861eb61a4487c8b050be5bda4
+      internalID: 1852643415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GandalfHardcore Portal sheet_4
+      name: Coin_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
+        x: 68
+        y: 4
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aae0751654634704cb37c90bebe3580d
-      internalID: 2107941349
+      spriteID: 69d51bc998b19674b8b54a9f98cb556e
+      internalID: 2040765225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GandalfHardcore Portal sheet_5
+      name: Coin_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
+        x: 84
+        y: 4
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ecb1f16ee839a94d96dae202275aa60
-      internalID: -803963673
+      spriteID: dce1d8a5afb98134a8a76801ff8a6da5
+      internalID: 1664910246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GandalfHardcore Portal sheet_6
+      name: Coin_6
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
+        x: 100
+        y: 4
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6367cfd09f21f4c4a90d38c23c4eb8fb
-      internalID: -43913778
+      spriteID: 9ed74ef913fd7e34d933e7ad8a85484a
+      internalID: -1534388259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GandalfHardcore Portal sheet_7
+      name: Coin_7
       rect:
         serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
+        x: 117
+        y: 4
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e75f116273b2d204d9b3d23f842a9b66
-      internalID: -117895864
+      spriteID: 50b00066ca2690c4eb6d30752da5e06b
+      internalID: -1388355559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GandalfHardcore Portal sheet_8
+      name: Coin_8
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 64
-        height: 64
+        x: 134
+        y: 4
+        width: 4
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9af8b650b6cd684b91ac50f5a93698f
-      internalID: 1895609070
+      spriteID: 027922543459f4b4895723b992c17062
+      internalID: -1906259270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GandalfHardcore Portal sheet_9
+      name: Coin_9
       rect:
         serializedVersion: 2
-        x: 576
-        y: 0
-        width: 64
-        height: 64
+        x: 149
+        y: 4
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,8 +313,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4e3f07afa3d9b04bb5f812bb3985ea4
-      internalID: -222383055
+      spriteID: dc8e0eef68cf7844aa725f102c1168a0
+      internalID: -1683930185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 4
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdad1084f8d384642ab549c69cd65012
+      internalID: -135654909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 4
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d33a8352db2207448507c085cf11a80
+      internalID: -343856482
       vertices: []
       indices: 
       edges: []
@@ -330,16 +372,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GandalfHardcore Portal sheet_0: -1875519228
-      GandalfHardcore Portal sheet_1: -1706164630
-      GandalfHardcore Portal sheet_2: -114276814
-      GandalfHardcore Portal sheet_3: -1960476038
-      GandalfHardcore Portal sheet_4: 2107941349
-      GandalfHardcore Portal sheet_5: -803963673
-      GandalfHardcore Portal sheet_6: -43913778
-      GandalfHardcore Portal sheet_7: -117895864
-      GandalfHardcore Portal sheet_8: 1895609070
-      GandalfHardcore Portal sheet_9: -222383055
+      Coin_0: -1724352133
+      Coin_1: -2145880540
+      Coin_10: -135654909
+      Coin_11: -343856482
+      Coin_2: -958230623
+      Coin_3: 1852643415
+      Coin_4: 2040765225
+      Coin_5: 1664910246
+      Coin_6: -1534388259
+      Coin_7: -1388355559
+      Coin_8: -1906259270
+      Coin_9: -1683930185
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
