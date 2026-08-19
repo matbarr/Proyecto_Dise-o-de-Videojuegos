@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movimiento")]
     [SerializeField] private float moveSpeed = 6f;
     [SerializeField] private float jumpForce = 11f;
+    [SerializeField] public float fuerzaRebote = 10f;
 
     [Header("Detección del suelo")]
     [SerializeField] private Transform groundCheck;
@@ -18,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform firePoint;
 
     private Rigidbody2D rb;
+    private bool recibiendoDanio;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private audioSalto audioSalto;
@@ -47,6 +49,7 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
         animator.SetBool("IsGrounded", grounded);
+        animator.SetBool("recibeDanio", recibiendoDanio);
 
         if (Input.GetButtonDown("Jump"))
         {
@@ -72,23 +75,28 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(
-            horizontalInput * moveSpeed,
-            rb.velocity.y
-        );
+        // Mientras el personaje está recibiendo daño, no pisamos su velocidad
+        // con el input de movimiento: así el impulso del rebote (AddForce en
+        // RecibeDanio) puede actuar libremente sin ser cancelado este mismo frame.
+        if (!recibiendoDanio)
+        {
+            rb.velocity = new Vector2(
+                horizontalInput * moveSpeed,
+                rb.velocity.y
+            );
+        }
 
-        if (jumpRequested && IsGrounded())
+        if (jumpRequested && IsGrounded() && !recibiendoDanio)
         {
             rb.velocity = new Vector2(
                 rb.velocity.x,
                 jumpForce
             );
 
-            if (audioSalto != null)         
+            if (audioSalto != null)
             {
-                audioSalto.ReproducirSalto(); 
+                audioSalto.ReproducirSalto();
             }
-
         }
 
         jumpRequested = false;
@@ -128,8 +136,8 @@ public class PlayerMovement : MonoBehaviour
             firePoint.position,
             Quaternion.identity
         );
-          Projectile projectiles =
-        newProjectiles.GetComponent<Projectile>();
+        Projectile projectiles =
+      newProjectiles.GetComponent<Projectile>();
         if (projectiles == null)
         {
             Debug.LogError(
@@ -169,5 +177,22 @@ public class PlayerMovement : MonoBehaviour
             groundCheck.position,
             groundCheckRadius
         );
+    }
+
+    public void RecibeDanio(Vector2 direccion, int cantDanio)
+    {
+        recibiendoDanio = true;
+
+       
+        rb.velocity = Vector2.zero;
+
+        Vector2 rebote = new Vector2(transform.position.x - direccion.x, 1).normalized;
+        rb.AddForce(rebote * fuerzaRebote, ForceMode2D.Impulse);
+    }
+
+    public void DesactivaDanio()
+    {
+        recibiendoDanio = false;
+        rb.velocity = Vector2.zero;
     }
 }
